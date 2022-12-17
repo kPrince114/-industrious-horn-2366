@@ -1,0 +1,34 @@
+
+SELECT description FROM complain INNER JOIN Engineer ON complain.id = Engineer.cid ;
+
+UPDATE complain SET satus = ? WHERE cis=?;
+
+
+ALTER TABLE complain ADD attend varchar(20);
+
+
+alter table Engineer add unique(username);
+
+
+
++-----------------------------------------------+
+|  ENTER YOUR NUMBER                            |
++-----------------------------------------------+
+|                                               | 
+| 1.registar your complain                		|
+| 2.empoly see my problem status                |
+| 3.see all complain history          			|
+| 4.change our password                         |
+| 5.Exit                        				|
++-----------------------------------------------+
+
+
++-------------------------------------------+
+| Enter your number   						|
++-------------------------------------------+
+| 1. you are resister your account        	|
+| 2.if you are already register then login  |
++-------------------------------------------+
+
+
+
